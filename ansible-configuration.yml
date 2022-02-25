@@ -16,4 +16,4 @@
     become_user : root
 
   - name: Deploy Docker Container
-    command: docker run -it -d -p 8088:8080 dalaka/addressbookdemo:1.0
+    command: docker run -it -d -p 8088:8080 dalaka/addressbookdemo1:1.2
